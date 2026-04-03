@@ -1,0 +1,43 @@
+/*
+ * Green academic theme override for al-folio.
+ * Place this file at assets/css/custom_theme.css in your al-folio repo.
+ * It is loaded automatically if you add the import to _includes/head.html
+ * (see DEPLOY.md for instructions).
+ *
+ * Primary green: #2E7D52  (forest / emerald — professional, readable)
+ * Hover green:   #1a5c39
+ */
+
+:root {
+  --global-theme-color:      #2E7D52;
+  --global-hover-color:      #1a5c39;
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color:  #1a5c39;
+  --global-footer-text-color:#cde8d6;
+  --global-footer-link-color:#a8d5bc;
+}
+
+/* Dark mode — slightly lighter green so it's not too harsh */
+html[data-theme="dark"] {
+  --global-theme-color:      #4caf85;
+  --global-hover-color:      #6fcba3;
+  --global-hover-text-color: #0a0a0a;
+}
+
+/* Profile image border uses theme color */
+.profile .address p {
+  color: var(--global-theme-color);
+}
+
+/* Nav link active state */
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--global-theme-color) !important;
+}
+
+/* Abbr badge on publications */
+abbr[title] {
+  border-bottom: 1px dotted var(--global-theme-color);
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
