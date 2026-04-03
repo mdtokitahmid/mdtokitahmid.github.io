@@ -22,7 +22,7 @@ keywords: computational biology, machine learning, natural language processing, 
 # Social / profile links — remove any you don't use
 profiles:
   - network: github
-    username: tokitahmid64
+    username: mdtokitahmid
   - network: google_scholar
     user: Oc81Bm8AAAAJ
   - network: email
@@ -64,31 +64,12 @@ exclude:
 sass:
   style: compressed
 
-# Plugin settings
-plugins:
-  - jekyll-archives
-  - jekyll-email-protect
-  - jekyll-feed
-  - jekyll-get-json
-  - jekyll-imagemagick
-  - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll-regex-replace
-  - jekyll-scholar
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-toc
-  - jekyll-twitter-plugin
-  - jemoji
-
 # -----------------------------------------------------------------------------
 # Theme (green — see assets/css/custom_theme.css for color overrides)
 # -----------------------------------------------------------------------------
 
 # Optionally set a custom URL when deploying
-url: https://tokitahmid64.github.io  # or your custom domain e.g. https://tokitahmid.com
+url: https://mdtokitahmid.github.io  # or your custom domain e.g. https://tokitahmid.com
 baseurl:                              # leave empty if site is at root
 
 # -----------------------------------------------------------------------------
