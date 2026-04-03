@@ -1,7 +1,9 @@
 ---
 layout: about
-title: about
+title: me!
 permalink: /
+nav: true
+nav_order: 1
 
 subtitle: >
   PhD Student · <a href="https://www.cs.princeton.edu/" target="_blank">Department of Computer Science</a> ·
