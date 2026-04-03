@@ -10,7 +10,7 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg          # place your photo at assets/img/prof_pic.jpg
+  image: toki_pp.jpeg
   image_circular: false
   more_info: >
     <p>Princeton University</p>
